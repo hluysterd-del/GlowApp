@@ -57,6 +57,13 @@ struct WelcomeView: View {
                     .foregroundColor(Color.white.opacity(0.5))
                     .opacity(subtitleOpacity)
 
+                Spacer().frame(height: 8)
+
+                Text("hi 😂")
+                    .font(.system(size: 15, weight: .regular))
+                    .foregroundColor(Color.white.opacity(0.4))
+                    .opacity(subtitleOpacity)
+
                 Spacer()
 
                 // Buttons
